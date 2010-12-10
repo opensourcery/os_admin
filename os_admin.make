@@ -9,6 +9,8 @@ projects[admin][version] = "2.0"
 
 projects[contextual][subdir] = "stock"
 projects[contextual][version] = "1.0"
+; Remove Views links if views_ui is not enabled: http://drupal.org/node/987810
+projects[contextual][patch][] = "http://drupal.org/files/issues/contextual.views_ui.patch"
 
 ; Themes
 projects[tao][subdir] = "stock"
