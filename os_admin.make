@@ -4,10 +4,10 @@ core = 6.x
 api = 2
 
 ; Modules
-projects[admin][subdir] = "stock"
+projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
 
-projects[contextual][subdir] = "stock"
+projects[contextual][subdir] = "contrib"
 projects[contextual][version] = "1.0"
 ; Remove Views links if views_ui is not enabled: http://drupal.org/node/987810
 projects[contextual][patch][] = "http://drupal.org/files/issues/contextual.views_ui.patch"
