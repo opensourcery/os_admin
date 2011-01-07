@@ -15,9 +15,6 @@ projects[contextual][patch][] = "http://drupal.org/files/issues/contextual.views
 projects[contextual][patch][] = "http://drupal.org/files/issues/contextual.1017718.patch"
 
 ; Themes
-projects[tao][subdir] = "stock"
-projects[tao][version] = "3.1"
-
-projects[rubik][subdir] = "stock"
+projects[tao][version] = "3.2"
 projects[rubik][version] = "3.0-beta2"
 
