@@ -17,7 +17,7 @@ function os_admin_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'admin_toolbar';
   $strongarm->value = array(
-    'layout' => 'horizontal',
+    'layout' => 'vertical',
     'position' => 'nw',
     'blocks' => array(
       'admin-create' => -1,
